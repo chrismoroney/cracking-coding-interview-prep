@@ -14,7 +14,7 @@ class ListNode(object):
         self.val = val
         self.next = next
 
-def return_kth_to_last(head, k) -> int:
+def return_kth_to_last(head: ListNode, k: int) -> int:
     buffer = head
     trail = head
 
